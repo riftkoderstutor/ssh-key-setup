@@ -63,8 +63,11 @@ pbcopy < ~/.ssh/id_rsa.pub
 2. Click on your profile picture in the top right corner, then go to **Settings**.
 3. In the left sidebar, click **SSH and GPG keys**.
 4. Click **New SSH key** or **Add SSH key**.
-5. Paste your key into the "Key" field and give it a descriptive title.
-6. Click **Add SSH key**.
+5. **Paste Your Key:**
+   - In the **"Key"** field, right-click and select **Paste** (or use `Ctrl + V` on Windows or `Cmd + V` on macOS).
+6. **Provide a Descriptive Title:**
+   - In the **"Title"** field, enter a name for your key (e.g., "My Laptop SSH Key").
+7. Click **Add SSH key** to save your changes.
 
 ## 6. Test Your SSH Connection
 Finally, test your SSH connection with:
@@ -72,8 +75,3 @@ Finally, test your SSH connection with:
 ```bash
 ssh -T git@github.com
 ```
-
-You’re now ready to use SSH with GitHub! If you have any questions, feel free to ask!
-```
-
-Feel free to copy and modify it as needed!
