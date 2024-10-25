@@ -6,7 +6,7 @@ Follow these steps to set up SSH for your GitHub account.
 Open your terminal and run:
 
 ```bash
-ls -al ~/.ssh
+cd ~/.ssh
 ```
 
 This will list any existing SSH keys. Look for files named `id_rsa` or `id_ed25519`.
